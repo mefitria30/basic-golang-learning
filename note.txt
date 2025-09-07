@@ -1,0 +1,58 @@
+// membuat module (project) awal - biasanya sesuai nama foldernya
+M3FITRIA30 belajar-golang-dasar
+$ go mod init belajar-golang-dasar
+go: creating new go.mod: module belajar-golang-dasar
+
+// masuk ke vs code
+M3FITRIA30 belajar-golang-dasar
+$ code .
+
+// membuat file kompilasi (executable.exe)
+M3FITRIA30 belajar-golang-dasar
+$ go build
+
+// cara menjalankannya file kompilasi
+M3FITRIA30 belajar-golang-dasar
+$ ./belajar-golang-dasar.exe
+Hello, World!
+
+// menjalankan tanpa kompilasi
+M3FITRIA30 belajar-golang-dasar
+$ go run helloworld.go
+Hello, World!
+
+sampe 26:17
+
+// tidak boleh ada function yang sama di satu module (project)
+M3FITRIA30 belajar-golang-dasar
+$ go build
+# belajar-golang-dasar
+.\sample.go:5:6: main redeclared in this block
+        .\helloworld.go:5:6: other declaration of main
+
+// solusinya, jalankan satu persatu seperti ini, tapi ketika dalam real project besar tetap tidak boleh seperti ini
+M3FITRIA30 belajar-golang-dasar
+$ go run sample.go
+This is sample file
+M3FITRIA30 belajar-golang-dasar
+$ go run helloworld.go
+Hello, World!
+
+
+// jalankan tipe data string
+M3FITRIA30 belajar-golang-dasar
+$ go run string.go
+Fitria
+Fitria Melliyanni
+jumlah karakter :  6
+ambil huruf ke -8 :  101
+M3FITRIA30 belajar-golang-dasar
+$
+
+sampe 45:34
+
+sampe 1:21:58
+
+sampe 1:58:09
+
+sampe 2:22:30
