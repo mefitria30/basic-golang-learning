@@ -56,3 +56,5 @@ sampe 1:21:58
 sampe 1:58:09
 
 sampe 2:22:30
+
+sampe 3:01:05
