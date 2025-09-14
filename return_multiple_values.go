@@ -7,6 +7,11 @@ func getFullName() (string, string) {
 }
 
 func main() {
-	firstName, lastName := getFullName()
-	fmt.Println(firstName, lastName)
+	// jika ingin menampung semua nilai return
+	// firstName, lastName := getFullName()
+	// fmt.Println(firstName, lastName)
+
+	// jika hanya ingin menampung salah satu nilai return
+	firstName, _ := getFullName()
+	fmt.Println(firstName)
 }
